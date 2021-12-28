@@ -12,7 +12,7 @@ repositories {
     mavenCentral()
     jcenter() //추가
 }
-ß
+
 test { // junit5를 사용하기 위해 필수로 선언되어야 함
     useJUnitPlatform()
 }
@@ -33,4 +33,5 @@ dependencies {
     implementation('com.h2database:h2')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
 }
