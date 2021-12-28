@@ -1,7 +1,6 @@
 package com.kgyury.practice.springboot;
-import dto.HelloResponseDto;
+import com.kgyury.practice.springboot.web.dto.HelloResponseDto;
 
-import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;  // Junit5을 위해 org.junit.Test로부터 대체
 import static org.assertj.core.api.Assertions.assertThat;
 
