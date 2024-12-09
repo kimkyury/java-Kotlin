@@ -11,6 +11,6 @@ public class RegisterLogListener {
 
     @EventListener
     public void handleRegisterEvent(RegisterEvent event){
-      log.debug("[EVENT] Registered Someone : {}", event.getUsername());
+      log.info("[EVENT LISTENER1] Registered Someone : {}", event.getUsername());
     }
 }

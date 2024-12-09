@@ -13,7 +13,7 @@ public class RegisterEventPublisher {
     private final ApplicationEventPublisher publisher;
 
     public void register(String username, String email){
-        log.debug("[EVENT] USER REGISTERED : {}", username);
+        log.info("[EVENT PUBLISH] USER REGISTERED : {}", username);
 
         RegisterEvent event = new RegisterEvent(this, username, email);
         publisher.publishEvent(event);

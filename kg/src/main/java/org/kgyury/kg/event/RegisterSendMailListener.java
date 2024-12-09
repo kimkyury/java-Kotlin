@@ -11,6 +11,6 @@ public class RegisterSendMailListener {
 
     @EventListener
     public void handleRegisterEvent(RegisterEvent event){
-      log.debug("[EVENT] SEND EMAIL: {}", event.getEmail());
+      log.info("[EVENT LISTENER2] SEND EMAIL: {}", event.getEmail());
     }
 }
