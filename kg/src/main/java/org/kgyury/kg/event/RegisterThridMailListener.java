@@ -9,14 +9,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j
-public class RegisterSendMailListener {
+public class RegisterThridMailListener {
 
-
-    @Order(1)
+    @Order(3)
     @Async
     @EventListener
     public void handleRegisterEvent(RegisterEvent event){
-      log.info("[EVENT LISTENER2] ORDER1- SEND EMAIL: {}", event.getEmail());
+      log.info("[EVENT LISTENER3] ORDER3- Orange: {} {}",  "🍊", event.getEmail());
       log.info("[EVENT THREAD] Listener executed on thread: {}" , Thread.currentThread().getName());
     }
 }
