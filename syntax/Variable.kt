@@ -15,4 +15,16 @@ fun main(){
     ..!!!!!!!!""""
 
     println(str2);
+
+
+
+    /** val과 var의 차이 **/
+    val name : String = "Kim" // 변경 불가능
+    var age: Inte = 30 // 변경 가능
+
+    println("Name: $name, Age: $age")
+
+    age = 20
+    println("Updated Age: $age")
+
 }
