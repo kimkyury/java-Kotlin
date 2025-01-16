@@ -1,7 +1,6 @@
 fun main (){
 
     /** 조건문 만들기 */
-
     // 정석 ver
     val score = 85
     val result = if (score >= 90){
@@ -18,6 +17,7 @@ fun main (){
 
 
     /** when 만들기 */
+    // ver1
     val day =3
     val dayName = when (day){
         1 -> "Mon"
@@ -28,4 +28,11 @@ fun main (){
 
     println("Day: $dayNmae")
 
+    // ver2
+    var grade = when {
+        score >= 90 -> "A"
+        score >= 80 -> "B"
+        else -> "C"
+    }
+    
 }
