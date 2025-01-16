@@ -68,6 +68,7 @@ fun main (){
     // 사용자의 입력받기, 변환 실패 시에는 Null을 가짐
     println("-----------------")
 
+    
     val input = readLine()?.toIntOrNull()
     val numStr = when {
         input == 1 -> "하나"
