@@ -6,10 +6,12 @@ class Car(val brand:String, val year:Int){
     }
 }
 
-class Animal(val name:String){
+class Animal(val name:String){ // 기본생성자를 정의하였음
     var age: Int = 0
 
     constructor(name: String, age: Int) : this(name){
+        // 1. this(name)을 통해 기본생성자로 name을 초기화함
+        // 2. age를 추가로 초기화함
         this.age = age
     }
 
