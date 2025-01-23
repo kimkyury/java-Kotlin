@@ -12,3 +12,8 @@
   **코드 간소화**
 
 - Callback Hell 피하고 순차적 코드를 작성하듯 비동기 작업을 처리한다
+
+# Kotlin DSL (Domain-Specific laguage)
+
+DSL: 특정 도메인 문제를 해결하기 위해 설계된 작은 언어
+ex) HTML 빌더
